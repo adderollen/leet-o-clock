@@ -9,3 +9,7 @@ autopublish
 insecure
 mrt:moment
 jquery
+meteorhacks:npm
+
+
+npm-container

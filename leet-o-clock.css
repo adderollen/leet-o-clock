@@ -1,1 +1,77 @@
-/* CSS declarations go here */
+@import url(http://fonts.googleapis.com/css?family=Orbitron);
+
+@font-face {
+	font-family: digital;
+	src: url(digital-7.mono.ttf);
+}
+
+body {
+	margin: 0;
+}
+
+.page {
+	height: 100vh;
+	background-color: rgb(44, 62, 80);
+}
+
+.content {
+	text-align: center;
+	position: relative;
+	top: 30%;
+}
+
+h1 {
+	font-family: 'Orbitron', sans-serif;
+	font-size: 3.13rem;
+	margin: 0;
+	margin-bottom: 0.5em;
+	color: rgb(189, 195, 199);
+	margin-left: 0.3em;
+	margin-right: 0.3em;
+	font-weight: normal;
+}
+
+h1.time {
+	font-family: 'digital', sans-serif;
+	font-size: 10rem;
+	
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	text-align: center;
+	width: 100%;
+}
+
+footer p {
+	position: relative;
+	bottom: 0;
+	margin: 0;
+	margin-bottom: 0.5em;
+	font-family: 'Orbitron', sans-serif;
+	color: rgb(189, 195, 199);
+}
+
+footer a {
+	color: rgb(189, 195, 199);
+	text-decoration: none;
+}
+
+footer a:hover {
+	text-decoration: underline;
+}
+
+@media screen and (max-width: 800px) {
+	h1 {
+		font-size: 1.56rem;
+	}
+
+	h1.time {
+		font-size: 5rem;
+	}
+
+	footer p {
+		font-size: 0.8rem;
+	}
+}
