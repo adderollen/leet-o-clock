@@ -1,3 +1,9 @@
+$(document).ready(function() {
+  $(".content").delay(1000).animate({"top":"30%"}, 700,"swing");
+  $(".content h1").delay(1000).animate({"opacity": "1"}, 700,"swing");
+  $("footer p").delay(1000).animate({"opacity": "1", "bottom": "0em"}, 700,"swing");
+})
+
 setInterval(function() {
   var time = new Date()
   var timeTwo = new Date(time.getFullYear(), time.getMonth(), time.getDate()+1, 13-1, 37)

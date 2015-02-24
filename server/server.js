@@ -1,10 +1,10 @@
 var Twit = Meteor.npmRequire('twit');
 
 var T = new Twit({
-        consumer_key:         '...', // API key
-        consumer_secret:      '...', // API secret
-        access_token:         '...', 
-        access_token_secret:  '...'
+        consumer_key:         '', // API key
+        consumer_secret:      '', // API secret
+        access_token:         '', 
+        access_token_secret:  ''
 }); 
 
 Meteor.methods({
