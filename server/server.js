@@ -11,7 +11,7 @@ Meteor.methods({
 	sendLeet: function () {
 		T.post('statuses/update',
 		{
-			status: "LEET O"+"'"+"Clock http://leet.meteor.com/ #LEET #elite #LeetOClock"
+			status: "The clock is Leet O"+"'"+"Clock http://leet.meteor.com/ #LEET #elite #LeetOClock"
 		},
 		function(err, data, response) {
 			console.log(data);
