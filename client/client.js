@@ -16,7 +16,7 @@ setInterval(function() {
   var seconds = (diff.getSeconds()<10?'0':'') + diff.getSeconds();
 
   if (hours == '00' && minutes == '00' && seconds == '00') {
-    //tweetLeet();
+    tweetLeet();
     $('#timeText').text("The clock is Leet O"+"'"+"Clock")
     $('#timeDiff').text("LEEEEEET")
   } else if(hours == '23' && minutes == '59'){
@@ -30,6 +30,6 @@ setInterval(function() {
 
 function tweetLeet() {
   Meteor.call('sendLeet', function(err, res) {
-    console.log(res)
+    //console.log(res)
   })
 }
